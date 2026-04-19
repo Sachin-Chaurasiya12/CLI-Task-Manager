@@ -15,6 +15,9 @@ public class TaskService implements ITaskService{
 
     @Override
     public void addService(String task) throws Exception {
+        if (task == null || task.trim().isEmpty()) {
+            throw new IllegalArgumentException("Task cannot be empty");
+        }
         dao.addTask(task);
     }
 

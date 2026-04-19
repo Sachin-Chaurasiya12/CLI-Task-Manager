@@ -1,1 +1,6 @@
+com\example\TaskDAO\TasksDao.class
+com\example\config\Database.class
+com\example\model\tasks.class
 com\example\Main.class
+com\example\service\interfaces\ITaskService.class
+com\example\service\TaskService.class
